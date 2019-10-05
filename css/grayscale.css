@@ -23,7 +23,7 @@
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 0;
+  padding: .0rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -147,6 +147,8 @@
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+  border-radius: 50px;
+  margin: .5rem;
 }
 
 .btn-primary {
@@ -302,3 +304,96 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.map-container  {
+  width: 50%;
+  float: left;
+}
+
+.map-form {
+  width: 50%;
+  float:left;
+}
+
+.map   {
+  width: 100%;
+}
+
+.directions {
+  align-content: center;
+}
+
+.origin {
+  padding: 25%;
+}
+
+.navi  {
+  height: 5%;
+  border-bottom: 0.15rem solid #64a19d;
+}
+.brand  {
+  font-family: Great Vibes;
+  font-size: 35px;
+}
+
+.navi-container {
+  padding-top: 20px;
+  padding-left: 35px;
+}
+
+.card-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 10rem;
+}
+
+.title-contact-card {
+  font-family: 'Varela Round', sans-serif;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.text-contact-card  {
+  font-family: 'Varela Round', sans-serif;
+  color: #ffffff;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.card-contact {
+  background-color: #303030;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-card-separator {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.row-contact-card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card-modal {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #303030;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
